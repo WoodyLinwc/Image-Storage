@@ -78,4 +78,4 @@ async function convertImages(
 }
 
 // Run the conversion - just edit these values as needed:
-convertImages(3747, "https://woodylinwc.github.io/Image-Storage/GIDLE/");
+convertImages(4304, "https://woodylinwc.github.io/Image-Storage/GIDLE/");
