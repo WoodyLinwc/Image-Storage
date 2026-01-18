@@ -4,7 +4,7 @@ const sharp = require("sharp");
 
 async function convertImages(
   startNumber = 0,
-  baseUrl = "https://woodylinwc.github.io/Image-Storage/GIDLE/"
+  baseUrl = "https://woodylinwc.github.io/Image-Storage/GIDLE/",
 ) {
   const inputDir = "input/";
   const outputDir = "output/";
@@ -66,10 +66,10 @@ async function convertImages(
 
     console.log(`\nConversion complete!`);
     console.log(
-      `Generated ${imageFiles.length} images starting from image_${startNumber}.JPG`
+      `Generated ${imageFiles.length} images starting from image_${startNumber}.JPG`,
     );
     console.log(
-      `URLs file contains all images from image_0.JPG to image_${finalImageNumber}.JPG (${urls.length} total URLs)`
+      `URLs file contains all images from image_0.JPG to image_${finalImageNumber}.JPG (${urls.length} total URLs)`,
     );
     console.log(`URLs saved to: ${urlsJsonPath}`);
   } catch (error) {
@@ -78,4 +78,4 @@ async function convertImages(
 }
 
 // Run the conversion - just edit these values as needed:
-convertImages(4861, "https://woodylinwc.github.io/Image-Storage/GIDLE/");
+convertImages(5350, "https://woodylinwc.github.io/Image-Storage/GIDLE/");
